@@ -11,7 +11,7 @@ class Item(BaseModel):
 
 @app.get("/")
 def read_root():
-    return {"status": "healthy", "message": "FastAPI is running on Azure!"}
+    return {"status": "healthy", "message": "FastAPI is running on Azure!!"}
 
 
 @app.get("/items/{item_id}")
