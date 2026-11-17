@@ -1,0 +1,5 @@
+fastapi
+uvicorn
+gunicorn
+pytest<9.2
+httpx
